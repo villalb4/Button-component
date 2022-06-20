@@ -12,6 +12,12 @@
   display: flex;
   justify-content: space-between;
   max-width: 572px;
+  margin-bottom: 45px;
+}
+.midButtonssize_div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 532px;
 }
 
 
@@ -46,7 +52,25 @@
   color: #FFF;
   background-color: #2962FF;
 }
-
 .cart {
   height: 14px;
+}
+/* tercera fila */
+.sm_button {
+  margin-top: 17px;
+  padding: 6px 12px;
+  color: #fff;
+  background-color: #2962FF;
+}
+.md_button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #2962FF;
+}
+.lg_button {
+  margin-top: 12px;
+  padding: 11px 22px;
+  color: #fff;
+  background-color: #2962FF;
 }

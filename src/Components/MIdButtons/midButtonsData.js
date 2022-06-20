@@ -36,4 +36,31 @@ const midButtons_icon = [
   },
 ]
 
-export {midButtons, midButtons_icon}
+const midButtons_size = [
+  {
+    title: "<Button size=”sm” />",
+    hoverTitle: "",
+    value: "Default",
+    style: "sm_button",
+    hoverStyle: "",
+    img: ""
+  },
+  {
+    title: "<Button size=”md” />",
+    hoverTitle: "",
+    value: "Default",
+    style: "md_button",
+    hoverStyle: "",
+    img: ""
+  },
+  {
+    title: "<Button size=”lg” />",
+    hoverTitle: "",
+    value: "Default",
+    style: "lg_button",
+    hoverStyle: "",
+    img: ""
+  },
+]
+
+export {midButtons, midButtons_icon, midButtons_size}

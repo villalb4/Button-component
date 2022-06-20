@@ -1,5 +1,5 @@
 import React from "react";
-import {midButtons, midButtons_icon} from "./midButtonsData"
+import {midButtons, midButtons_icon, midButtons_size} from "./midButtonsData"
 import "./MidButtons.css"
 import cart from "./cart.png"
 
@@ -32,6 +32,20 @@ function MidButtons() {
           </React.Fragment>
         ))}
       </div>
+
+      <div className="midButtonssize_div">
+        {midButtons_size.map((m, i) => (
+          <React.Fragment key={i}>
+            <div>
+              <span className="title">{m.title}</span>
+              <div>
+                <button className={m.style}>{m.value}</button>
+              </div>
+            </div>
+          </React.Fragment>
+        ))}
+      </div>
+
     </div>
   )
 }
