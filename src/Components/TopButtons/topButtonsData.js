@@ -25,18 +25,10 @@ const buttons = [
   },
   {
     title: "<Button disableShadow />",
-    hoverTitle: "&:hover, &:focus",
+    hoverTitle: "",
     value: "Default",
     style: "Button_shadow",
     hoverStyle: "Button_shadow_hover",
-    img: ""
-  },
-  {
-    title: "<Button disabled/>",
-    hoverTitle: "&:hover, &:focus",
-    value: "Default",
-    style: "Button_disabled",
-    hoverStyle: "Button_disableText",
     img: ""
   },
 ]

@@ -1,29 +1,20 @@
-.container {
-  margin-left: 444px;
-}
-
-h1 {
-  font-family: 'Poppins';
-  font-size: 24px;
-  font-weight: 500;
-  color: #4f4f4f;
-  margin-top: 53px;
-}
-
 .buttons_container {
   display: flex;
   max-width: 317px;
   justify-content: space-between;
-  margin-top: 28px;
 }
 
-span {
+.title {
   font-family: 'Ubuntu Mono';
   font-size: 12px;
   color: #333333;
   margin-bottom: 12px;
 }
 .title_hover {
+  font-family: 'Ubuntu Mono';
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 12px;
   color: #828282;
 }
 
