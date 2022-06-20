@@ -4,7 +4,8 @@ import "./Buttons.css"
 
 function Buttons() {
   return (
-    <div>
+    <div className="container">
+      <h1>Buttons</h1>
       {buttonsData.map((b, i) => (
         <div key={i} className="buttons_container">
           <div className="div_buttons">

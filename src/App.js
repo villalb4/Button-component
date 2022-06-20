@@ -5,7 +5,6 @@ import Buttons from "./Components/Buttons";
 function App() {
   return (
     <div>
-      <h1>Buttons</h1>
       <Buttons />
     </div>
   )
