@@ -12,6 +12,7 @@ function Buttons() {
       <MidButtons />
       <BotButtons />
       <span className={s.link_icons}>Icons: https://material.io/resources/icons/?style=round</span>
+      <h2 className={s.created_by}>created by <span className={s.iam}>villalb4</span> - devChallenges.io</h2>
     </div>
   )
 }
