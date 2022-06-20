@@ -1,0 +1,65 @@
+.buttons_container {
+  display: flex;
+  max-width: 317px;
+  justify-content: space-between;
+}
+
+span {
+  font-family: 'Ubuntu Mono';
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.title_hover {
+  color: #828282;
+}
+
+
+.div_buttons,
+.div_hoverButtons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+
+button {
+  border-radius: 6px;
+  border: none;
+  padding: 7.4px 16px 8.6px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Noto Sans JP';
+}
+
+/* primer buton */
+.Button {
+  color: #3F3F3F;
+  background-color: #E0E0E0;
+}
+.Button_hover {
+  color: #3F3F3F;
+  background-color: #AEAEAE;
+}
+
+/* segundo buton */
+.Button_outline {
+  color: #3D5AFE;
+  border: solid 1px #3D5AFE;
+  background-color: transparent;
+}
+.Button_outline_hover {
+  color: #3D5AFE;
+  border: solid 1px #3D5AFE;
+  background-color: #2962FF1A;
+}
+
+/* tercer boton */
+.Button_text {
+  color: #3D5AFE;
+  padding: 8px 0px;
+  background-color: transparent;
+}
+.Button_text_hover {
+  color: #3D5AFE;
+  background-color: #2962FF1A;
+}
