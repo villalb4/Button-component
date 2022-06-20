@@ -9,3 +9,10 @@
   color: #4f4f4f;
   margin: 53px 0px 28px 0px;
 }
+
+.link_icons {
+  margin-top: 2px;
+  font-family: "Ubuntu Mono";
+  font-size: 12px;
+  color: #828282;
+}
