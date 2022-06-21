@@ -1,8 +1,8 @@
 .sidebar {
   padding: 38.57px 66.5px 0 48px ;
   background-color: #FAFBFD;
-  position: absolute;
-  position: fixed;
+  /* position: relative;
+  position: fixed; */
   height: 100vh;
 }
 
